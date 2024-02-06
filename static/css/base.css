@@ -1,0 +1,27 @@
+header h1 a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+body {
+    font-size: 18px;
+}
+
+header{
+    border-bottom: 2px solid grey;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.post-entry {
+    margin: 0.5rem 0;
+}
+
+.post-entry :visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.post-entry :hover {
+    color: red;
+}
